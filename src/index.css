@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Lora&family=Poppins&family=Rufina&display=swap');
+/* font-family: 'EB Garamond', serif;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* background: #134E5E; 
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
+background: linear-gradient(to right, #71B280, #134E5E); */
+
+/* background: #34e89e;
+background: -webkit-linear-gradient(to left, #0f3443, #34e89e); 
+background: linear-gradient(to left, #0f3443, #34e89e); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'EB Garamond', serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link{
+    position: relative;
+    padding-bottom: 8px;
 }
+
+.link::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content:"";
+    width:0%;
+    height: 3px;
+    transition: width 0.4s ease-out;
+}
+
+.link:hover.link::after{
+    width: 100%;
+}
+
+.container{
+  width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: 0 0 5px rgba(0,0,0,0.5);  
+}
+
+.container p{
+    line-height: 1.4;
+    text-align: justify;
+}
+
+#check{
+    display: none;
+}
+
+.content{
+    display: none;
+    transition: 0.5s linear;
+}
+
+label{
+    position: relative;
+    display:inline-block;
+    margin-top: 15px;
+    background-color:#0ACC5A;
+    cursor: pointer;
+    font-weight: 600;  
+}
+
+#check:checked ~ .content{
+    display: block;
+}
+
+#check:checked ~ label{
+    visibility: hidden;
+}
+
+#check:checked ~ label:after{
+  content: 'Show less';
+  display: block;  
+  visibility: visible;
+  background: #0ACC5A;
+  padding: 6px 6px;
+  text-align:center;
+  border-radius: 50px;
+}
+
+
+label:before{
+    content: '';
+    position: absolute;
+    background:inherit;
+    top:-5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+label:hover:before{
+    opacity: 1;
+    z-index: -1;
+}
+
+
