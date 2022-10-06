@@ -25,7 +25,7 @@ function Contact() {
 
            <div className="mb-5 grid-cols-4 grid">
             <a href="" type="button" class="rounded-full border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <CgFacebook href="https://facebook.com/Regizofficial" className="text-center mx-2 mt-2 text-xl"/>
+            <CgFacebook href="https://facebook.com/Regizofficial" className="text-center mt-2 text-xl"/>
             </a>
             <a href="https://twitter.com/Regizofficial" type="button" class="rounded-full border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
               <BsTwitter className="text-center mx-2 mt-2 text-xl"/>
@@ -113,7 +113,7 @@ function Contact() {
        <ScrollToTop  
         smooth
         width=""
-        component={<p><HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl"/></p>}      />
+        component={<p><HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl"/></p>}/>
 
        
     </div>

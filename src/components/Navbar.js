@@ -261,7 +261,7 @@ function Navbar() {
                       TEAM
                       </Link>
                       </li>
-                      <li>
+                      {/* <li>
                       <Link to="persona"  smooth={true}  duration={500} class="
                             dropdown-item
                             text-sm
@@ -295,7 +295,7 @@ function Navbar() {
                           ">
                       GET STARTED
                       </Link>
-                      </li>
+                      </li> */}
                       <li>
                       <Link to="faq"  smooth={true}  duration={500} class="
                             dropdown-item
@@ -565,7 +565,7 @@ function Navbar() {
 
                         </li>
 
-                        <li>
+                        {/* <li>
                         <Link onClick={handleClose} to="persona"  smooth={true} offset={-50} duration={500} class=" dropdown-item
                               text-sm
                               py-2
@@ -597,7 +597,7 @@ function Navbar() {
                               hover:bg-gray-100">FAQ
                         </Link>
 
-                        </li>
+                        </li> */}
 
                         <li>
                         <Link onClick={handleClose} to="getstarted"  smooth={true} offset={-50} duration={500} class=" dropdown-item
