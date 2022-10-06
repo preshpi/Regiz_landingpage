@@ -40,7 +40,7 @@ function Contact() {
             <HiMail className="text-center mx-5 mt-2 text-xl"/>
             </a>
             <a href="mailto:regizofficial@outlook.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <SiMicrosoftoutlook className="text-center mx-5 mt-2 text-xl"/>
+            <SiMicrosoftoutlook className="text-center  mt-2 text-xl"/>
             </a>
             <a href="tel: +234 803 211 3990" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
             <BsWhatsapp className="text-center mx-5 mt-2 text-xl"/>
