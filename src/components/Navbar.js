@@ -21,7 +21,7 @@ function Navbar() {
             <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 text-black'>
              
               
-              <a><Link to="home"  smooth={true}  duration={500} class="link hover:text-[#45C999] text-[#FEFEFF] mb-2">
+              <a><Link to="home"  smooth={true}  duration={500} class="line hover:text-[#66CC7B] text-[#FEFEFF] mb-2 no-underline	">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -30,7 +30,7 @@ function Navbar() {
                   </Link>
               </a>  
 
-              <a><Link to="about"  smooth={true}  duration={500} class="link hover:text-[#45C999] text-[#FEFEFF]">
+              <a><Link to="about"  smooth={true}  duration={500} class="line hover:text-[#66CC7B] text-[#FEFEFF] no-underline	">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -46,10 +46,11 @@ function Navbar() {
                       class="
                         dropdown-toggle
                         px-3
-                        hover:text-[#45C999] text-[#FEFEFF]
+                        hover:text-[#66CC7B] text-[#FEFEFF]
                         link
                         font-medium
                         leading-tight
+                        no-underline	
                         uppercase
                         transition
                         duration-150
@@ -102,6 +103,23 @@ function Navbar() {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
+                      <Link to="benefit"  smooth={true}  duration={500} class="
+                            dropdown-item
+                            text-sm
+                            py-2
+                            px-4
+                            font-normal
+                            block                           
+                            w-full
+                            whitespace-nowrap
+                            bg-transparent
+                            text-gray-700
+                            hover:bg-gray-100
+                          ">
+                      Benefit
+                      </Link>
+                      </li>
+                      <li>
                       <Link to="feature"  smooth={true}  duration={500} class="
                             dropdown-item
                             text-sm
@@ -119,30 +137,10 @@ function Navbar() {
                       Features
                       </Link>
                       </li>
-
-                      <li>
-                      <Link to="benefit"  smooth={true}  duration={500} class="
-                            dropdown-item
-                            text-sm
-                            py-2
-                            px-4
-                            font-normal
-                            block                           
-                            w-full
-                            whitespace-nowrap
-                            bg-transparent
-                            text-gray-700
-                            hover:bg-gray-100
-                          ">
-                      Benefit
-                      </Link>
-                      </li>
-
                     </ul>
                   </div>
                 </div>
               </div>   
-
 
               <div class="flex justify-center">
                 <div>
@@ -151,10 +149,11 @@ function Navbar() {
                       class="
                         dropdown-toggle
                         px-3
-                        hover:text-[#45C999] text-[#FEFEFF]
+                        hover:text-[#66CC7B] text-[#FEFEFF]
                         link
                         font-medium
                         leading-tight
+                        no-underline	
                         uppercase
                         transition
                         duration-150
@@ -321,7 +320,7 @@ function Navbar() {
                 </div>
               </div>    
 
-              <a><Link to="roadmap"  smooth={true} offset={-100} duration={500} class="link hover:text-[#45C999] text-[#FEFEFF]">
+              <a><Link to="roadmap"  smooth={true} offset={-100} duration={500} class="link hover:text-[#66CC7B] text-[#FEFEFF] no-underline">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -330,7 +329,7 @@ function Navbar() {
                   </Link>
               </a>     
 
-              <a><Link to="contact"  smooth={true} offset={50} duration={500} class="link hover:text-[#45C999] text-[#FEFEFF]">
+              <a><Link to="contact"  smooth={true} offset={50} duration={500} class="link hover:text-[#66CC7B] text-[#FEFEFF] no-underline">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -351,11 +350,11 @@ function Navbar() {
                       {/* mobile navbar */}
     <ul className={!nav ? 'hidden' : 'absolute w-full  h-74 shadow-full cursor-pointer bg-[#FFFF] shadow '}>
       <div className='flex flex-col'>
-            <li className="w-full mb-3 text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer"><a href='/'>Home</a></li>
+            <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer"><a href='/'>Home</a></li>
            
-            <li className="w-full mb-3 text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>About</Link></li>
+            <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>About</Link></li>
         
-            <div class="w-full mb-3 text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+            <div class="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                   <div>
                     <div class="dropdown relative">
                       <button
@@ -420,6 +419,21 @@ function Navbar() {
                         aria-labelledby="dropdownMenuButton1"
                       >
                         <li>
+                        <Link onClick={handleClose} to="benefit"  smooth={true} offset={-50} duration={500} class=" dropdown-item
+                              text-sm
+                              py-2
+                              px-4
+                              font-normal
+                              block
+                              w-full
+                              whitespace-nowrap
+                              bg-transparent
+                              text-gray-700
+                              hover:bg-gray-100">BENEFIT
+                        </Link>
+                        </li>
+
+                        <li>
                         <Link onClick={handleClose} to="feature"  smooth={true} offset={-50} duration={500} class=" dropdown-item
                               text-sm
                               py-2
@@ -434,28 +448,12 @@ function Navbar() {
                         </Link>
                           
                         </li>
-
-                        <li>
-                        <Link onClick={handleClose} to="benefit"  smooth={true} offset={-50} duration={500} class=" dropdown-item
-                              text-sm
-                              py-2
-                              px-4
-                              font-normal
-                              block
-                              w-full
-                              whitespace-nowrap
-                              bg-transparent
-                              text-gray-700
-                              hover:bg-gray-100">BENEFIT
-                        </Link>
-
-                        </li>
                       </ul>
                     </div>
                   </div>
             </div>
 
-            <div class="w-full mb-3 text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+            <div class="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                   <div>
                     <div class="dropdown relative">
                       <button
@@ -622,9 +620,9 @@ function Navbar() {
                   </div>
             </div>
 
-            <li className="w-full mb-3 text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="roadmap" smooth={true} offset={-100} duration={500}>Roadmap</Link></li>
+            <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="roadmap" smooth={true} offset={-100} duration={500}>Roadmap</Link></li>
             
-            <li className="w-full text-[#000101] hover:bg-[#34BABA] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>        
+            <li className="w-full text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>        
       </div>
     </ul>
     </div>
