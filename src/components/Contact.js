@@ -25,28 +25,28 @@ function Contact() {
 
            <div className="mb-5 grid-cols-4 grid">
             <a href="" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <CgFacebook href="https://facebook.com/Regizofficial" className="text-center  mx-0 mt-2 text-xl"/>
+            <CgFacebook href="https://facebook.com/Regizofficial" className="text-center  m-2 text-xl"/>
             </a>
             <a href="https://twitter.com/Regizofficial" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-              <BsTwitter className="text-center mx-0 mt-2 text-xl"/>
+              <BsTwitter className="text-center m-2 text-xl"/>
             </a>
             <a href="https://www.linkedin.com/in/Regiz/" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <AiFillLinkedin className="text-center mx-0 mt-2 text-xl"/>
+            <AiFillLinkedin className="text-center  m-2 text-xl"/>
             </a>
             <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-              <AiFillInstagram className="text-center mx-0 mt-2 text-xl"/>
+              <AiFillInstagram className="text-center  m-2 text-xl"/>
             </a>
             <a href="mailto:regizcoin.io@gmail.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <HiMail className="text-center mx-0 mt-2 text-xl"/>
+            <HiMail className="text-center  m-2 text-xl"/>
             </a>
             <a href="mailto:regizofficial@outlook.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <SiMicrosoftoutlook className="text-center mx-0 mt-2 text-xl"/>
+            <SiMicrosoftoutlook className="text-center  m-2 text-xl"/>
             </a>
             <a href="tel: +234 803 211 3990" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <BsWhatsapp className="text-center mx-0 mt-2 text-xl"/>
+            <BsWhatsapp className="text-center  m-2 text-xl"/>
             </a>
             <a href="https://telegram.com/Regizofficial" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <BsTelegram className="text-center mx-0 mt-2 text-xl"/>
+            <BsTelegram className="text-center  m-2 text-xl"/>
             </a>
            </div>
 
