@@ -36,17 +36,17 @@ function Contact() {
             <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
               <AiFillInstagram className="text-center  m-2 text-xl"/>
             </a>
-            <a href="mailto:regizcoin.io@gmail.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <HiMail className="text-center  m-2 text-xl"/>
+            <a href="mailto:regizcoin.io@gmail.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+            <HiMail className="text-center mt-2 text-xl"/>
             </a>
             <a href="mailto:regizofficial@outlook.com" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <SiMicrosoftoutlook className="text-center  m-2 text-xl"/>
+            <SiMicrosoftoutlook className="text-center  m-3 text-xl"/>
             </a>
             <a href="tel: +234 803 211 3990" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <BsWhatsapp className="text-center  m-2 text-xl"/>
+            <BsWhatsapp className="text-center  m-3 text-xl"/>
             </a>
             <a href="https://telegram.com/Regizofficial" type="button" class="rounded-lg border-2 hover:border-[#66CC7B] border-[#FFFEFE] text-[#FFFEFE] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-2">
-            <BsTelegram className="text-center  m-2 text-xl"/>
+            <BsTelegram className="text-center  m-3 text-xl"/>
             </a>
            </div>
 
