@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu  } from "react-icons/ai";
 import { Link, animateScroll as scroll } from 'react-scroll'
-
+import Toggle from '../darkmode/toggle';
 function Navbar() {
 
     const [nav, setNav] = useState(false)
@@ -15,10 +15,10 @@ function Navbar() {
                   {/* logo image */}
          <div className='flex items-center'>
             <img src={require('../images/loreg.png')} className="w-16"/>
-            <h3 className="text-[#FEFEFF] text-3xl">Regiz</h3>
+            <h3 className="text-[#FEFEFF] text-3xl font-sans">Regiz</h3>
          </div>
         
-            <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 text-black'>
+            <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 text-black justify-center items-center flex'>
              
               
               <a><Link to="home"  smooth={true}  duration={500} class="line hover:text-[#66CC7B] text-[#FEFEFF] mb-2 no-underline	">
@@ -336,7 +336,10 @@ function Navbar() {
                   <span></span>
                   Contact
                   </Link>
-              </a>   
+              </a>  
+
+               <Toggle className=""/>  
+ 
                       
             </ul>
         
@@ -615,6 +618,8 @@ function Navbar() {
                         </Link>
 
                         </li>
+                        
+
                       </ul>
                     </div>
                   </div>
@@ -623,6 +628,7 @@ function Navbar() {
             <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="roadmap" smooth={true} offset={-100} duration={500}>Roadmap</Link></li>
             
             <li className="w-full text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>        
+            <Toggle/>
       </div>
     </ul>
     </div>

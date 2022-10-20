@@ -3,8 +3,8 @@ import React from 'react'
 function About() {
   return (
     <div name='about' className="pt-5">
-      <h1 className="text-5xl text-center mt-3 text-white font-bold tracking-wide mb-5 pt-5" data-aos="flip-up">About Regiz</h1>
-      <div className="text-white font-[poppins]" data-aos="slide-up">
+      <h1 className="text-5xl text-black dark:text-white text-center mt-3 font-bold tracking-wide mb-5 pt-5" data-aos="flip-up">About Regiz</h1>
+      <div className="text-black dark:text-gray-300 font-[poppins]" data-aos="slide-up">
         <div className="box text-start">
         <input type="checkbox" id="check"/>
         <p className="text-x leading-8 tracking-wide" data-aos="slide-up">
@@ -22,7 +22,7 @@ function About() {
           These documents will then become digital assets with monetary value.
           </p>
         </div>
-        <label for="check" className="px-3 py-3 rounded-full text-white  hover:text-black bg-[#66CC7B] hover:[#] hover:animate-bounce">READ MORE</label>
+        <label for="check" className="px-3 py-3 rounded-full text-white  hover:text-black bg-[#66CC7B] hover:[#] hover:animate-bounce dark:text-black">READ MORE</label>
         </div> 
       </div> 
     </div>
