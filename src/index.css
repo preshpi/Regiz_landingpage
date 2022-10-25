@@ -20,7 +20,6 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 
 .line{
@@ -106,12 +105,10 @@ label:hover:before{
 
 .container {
     min-height: 100vh;
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 100px 0;
-    background-color: #111;
+    justify-content: center; 
+
   }
   .timeline {
     width: 80%;
@@ -126,11 +123,12 @@ label:hover:before{
   }
   .timeline ul li {
     padding: 20px;
-    background-color: #1e1f22;
+    /* background-color: #1e1f22; */
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
   }
+
   .timeline ul li:last-child {
     margin-bottom: 0;
   }
@@ -160,7 +158,7 @@ label:hover:before{
       transform: translateX(-50%);
       width: 2px;
       height: 100%;
-      background-color: gray;
+      /* background-color: gray; */
     }
     .timeline ul li {
       width: 50%;

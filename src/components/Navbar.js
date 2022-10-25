@@ -9,8 +9,8 @@ function Navbar() {
     const handleClose = ()=> setNav(!nav)
 
   return (
-    <div className='w-screen h-[80px] z-10 fixed drop-shadow-lg'>
-     <div className='px-2 flex justify-between items-center w-full h-full  bg-[#070909]  text-[#FEFEFF]  shadow-lg cursor-pointer'>     
+    <div className='w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#070909]  text-black dark:text-white'>
+     <div className='px-2 flex justify-between items-center w-full h-full  shadow-lg cursor-pointer'>     
         
                   {/* logo image */}
          <div className='flex items-center'>

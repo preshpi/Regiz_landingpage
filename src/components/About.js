@@ -2,10 +2,10 @@ import React from 'react'
 
 function About() {
   return (
-    <div name='about' className="pt-5">
-      <h1 className="text-5xl text-black dark:text-white text-center mt-3 font-bold tracking-wide mb-5 pt-5" data-aos="flip-up">About Regiz</h1>
-      <div className="text-black dark:text-gray-300 font-[poppins]" data-aos="slide-up">
-        <div className="box text-start">
+    <div name='about' className="pt-5 dark:bg-[#0C1017]">
+      <h1 className="text-5xl text-white text-center mt-3 font-bold tracking-wide mb-5 pt-5">About Regiz</h1>
+      <div className="text-gray-300 font-[poppins]" data-aos="slide-up">
+        <div className="box text-start lg:w-[800px] m-10">
         <input type="checkbox" id="check"/>
         <p className="text-x leading-8 tracking-wide" data-aos="slide-up">
         Regiz is a generation alpha digital asset technology project that focuses on digitizing and authenticating digital or handwritten documents so that they can be electronically stored more compactly. it may be a passport, documrnts, certifications, bank statements, computerized receipts, work identification cards, or any suitable documents.     

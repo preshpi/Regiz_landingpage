@@ -11,7 +11,7 @@ root.render(
   <ThemeProvider>
 
   <React.StrictMode>
-    <body className="dark:bg-[#070909] transition-all bg-[#FFFEFE]">
+    <body className="transition-all overflow-hidden bg-[#fff] dark:bg-[#070909]">
       <App />    
     </body>
 
