@@ -24,17 +24,21 @@ function Contact() {
           </div>
 
            <div className="mb-5 grid-cols-4 grid">
-            <a href="https://facebook.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center grid place-items-center items-center border-2 border-[#66CC7B] hover:border-[#000] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-            <CgFacebook className="text-center text-2xl"/>
+            <a href="https://facebook.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#2A97E3]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
+           <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666982778/face_tzcyjj.png" className="text-center "/>
+            {/* <CgFacebook className="text-center text-2xl"/> */}
             </a>
-            <a href="https://twitter.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center border-2 border-[#66CC7B] hover:border-[#000] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-              <BsTwitter className="text-center text-2xl"/>
+            <a href="https://twitter.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#49B0CC]   leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
+              {/* <BsTwitter className="text-center text-2xl"/> */}
+              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666982826/twi_qcqmd3.png" className="text-center "/>
             </a>
-            <a href="https://www.linkedin.com/in/Regiz/" type="button" class="rounded-lg grid place-items-center items-center border-2  border-[#66CC7B] hover:border-[#000] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-            <AiFillLinkedin className="text-center text-2xl"/>
+            <a href="https://www.linkedin.com/in/Regiz/" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#229AC9] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
+            {/* <AiFillLinkedin className="text-center text-2xl"/> */}
+            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666982812/linkedin_jkey22.png" className="text-center"/>
             </a>
-            <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center border-2  border-[#66CC7B] hover:border-[#000] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-              <AiFillInstagram className="text-center text-2xl"/>
+            <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center text-black shadow-lg shadow-[#fff]  dark:shadow-[#CFCFCF] hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
+              {/* <AiFillInstagram className="text-center text-2xl"/> */}
+              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666982795/insta_juhbmx.png" className="text-center "/>
             </a>
             <a href="mailto:regizcoin.io@gmail.com" type="button" class="rounded-lg grid place-items-center items-center border-2  border-[#66CC7B] hover:border-[#000] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
             <HiMail className="text-center text-2xl"/>

@@ -10,9 +10,8 @@ import Features from './components/Features';
 import Regiscoin from './components/Regiscoin';
 import How from './components/How';
 import Team from './components/Team';
-// import Persona from './components/Persona';
+import Persona from './components/Persona';
 // import Faq from './components/Faq';
-import Getstarted from './components/Getstarted';
 import AnimatedCursor from "react-animated-cursor"
 import HashLoader from "react-spinners/HashLoader";
 import Aos from 'aos';
@@ -72,15 +71,14 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      <Benefit/>
       <Features/>
+      <Benefit/>
       <Regiscoin/>
       <How/>
       <Team/>
-      {/* <Persona/> */}
+      <Persona/>
       {/* <Faq/> */}
       <Roadmap/>
-      <Getstarted/> 
       <Contact/>
 
       </>

@@ -103,23 +103,6 @@ function Navbar() {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                      <Link to="benefit"  smooth={true}  duration={500} class="
-                            dropdown-item
-                            text-sm
-                            py-2
-                            px-4
-                            font-normal
-                            block                           
-                            w-full
-                            whitespace-nowrap
-                            bg-transparent
-                            text-gray-700
-                            hover:bg-gray-100
-                          ">
-                      Benefit
-                      </Link>
-                      </li>
-                      <li>
                       <Link to="feature"  smooth={true}  duration={500} class="
                             dropdown-item
                             text-sm
@@ -137,6 +120,24 @@ function Navbar() {
                       Features
                       </Link>
                       </li>
+                      
+                      <li>
+                      <Link to="benefit"  smooth={true}  duration={500} class="
+                            dropdown-item
+                            text-sm
+                            py-2
+                            px-4
+                            font-normal
+                            block                           
+                            w-full
+                            whitespace-nowrap
+                            bg-transparent
+                            text-gray-700
+                            hover:bg-gray-100
+                          ">
+                      Benefit
+                      </Link>
+                      </li>                   
                     </ul>
                   </div>
                 </div>
@@ -261,7 +262,7 @@ function Navbar() {
                       TEAM
                       </Link>
                       </li>
-                      {/* <li>
+                      <li>
                       <Link to="persona"  smooth={true}  duration={500} class="
                             dropdown-item
                             text-sm
@@ -279,23 +280,6 @@ function Navbar() {
                       Persona
                       </Link>
                       </li>
-                      <li>
-                      <Link to="getstarted"  smooth={true}  duration={500} class="
-                            dropdown-item
-                            text-sm
-                            py-2
-                            px-4
-                            font-normal                            
-                            block
-                            w-full
-                            whitespace-nowrap
-                            bg-transparent
-                            text-gray-700
-                            hover:bg-gray-100
-                          ">
-                      GET STARTED
-                      </Link>
-                      </li> */}
                       <li>
                       <Link to="faq"  smooth={true}  duration={500} class="
                             dropdown-item
@@ -422,21 +406,6 @@ function Navbar() {
                         aria-labelledby="dropdownMenuButton1"
                       >
                         <li>
-                        <Link onClick={handleClose} to="benefit"  smooth={true} offset={-50} duration={500} class=" dropdown-item
-                              text-sm
-                              py-2
-                              px-4
-                              font-normal
-                              block
-                              w-full
-                              whitespace-nowrap
-                              bg-transparent
-                              text-gray-700
-                              hover:bg-gray-100">BENEFIT
-                        </Link>
-                        </li>
-
-                        <li>
                         <Link onClick={handleClose} to="feature"  smooth={true} offset={-50} duration={500} class=" dropdown-item
                               text-sm
                               py-2
@@ -451,6 +420,21 @@ function Navbar() {
                         </Link>
                           
                         </li>
+
+                        <li>
+                        <Link onClick={handleClose} to="benefit"  smooth={true} offset={-50} duration={500} class=" dropdown-item
+                              text-sm
+                              py-2
+                              px-4
+                              font-normal
+                              block
+                              w-full
+                              whitespace-nowrap
+                              bg-transparent
+                              text-gray-700
+                              hover:bg-gray-100">BENEFIT
+                        </Link>
+                        </li>                  
                       </ul>
                     </div>
                   </div>
@@ -568,7 +552,7 @@ function Navbar() {
 
                         </li>
 
-                        {/* <li>
+                         <li>
                         <Link onClick={handleClose} to="persona"  smooth={true} offset={-50} duration={500} class=" dropdown-item
                               text-sm
                               py-2
@@ -600,26 +584,7 @@ function Navbar() {
                               hover:bg-gray-100">FAQ
                         </Link>
 
-                        </li> */}
-
-                        <li>
-                        <Link onClick={handleClose} to="getstarted"  smooth={true} offset={-50} duration={500} class=" dropdown-item
-                              text-sm
-                              py-2
-                              uppercase
-                              px-4
-                              font-normal
-                              block
-                              w-full
-                              whitespace-nowrap
-                              bg-transparent
-                              text-gray-700
-                              hover:bg-gray-100">GET STARTED
-                        </Link>
-
-                        </li>
-                        
-
+                        </li> 
                       </ul>
                     </div>
                   </div>
