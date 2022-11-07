@@ -8,16 +8,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <React.StrictMode>  
   <ThemeProvider>
-
-  <React.StrictMode>
     <body className="transition-all overflow-hidden bg-[#fff] dark:bg-[#070909]">
       <App />    
     </body>
-
-  </React.StrictMode>
   </ThemeProvider>
-
+ </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

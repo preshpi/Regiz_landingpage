@@ -28,7 +28,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 8000)
+    },2000)
 }, []);
 
   return (
@@ -62,7 +62,8 @@ function App() {
       <HashLoader
       color={"#66CC7B"} 
       loading={loading} 
-      size={100} />
+      size={100} 
+      />
      </div>
 
      :
@@ -77,10 +78,8 @@ function App() {
       <How/>
       <Team/>
       <Persona/>
-      {/* <Faq/> */}
       <Roadmap/>
       <Contact/>
-
       </>
 
 }

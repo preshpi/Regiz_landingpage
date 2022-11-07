@@ -9,20 +9,42 @@ const Toggle = () => {
       {theme === 'dark' ? (
         <button
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-300 shadow-none rounded-full focus:outline-none text-lg hover:bg-[#fafafa]  hover:opacity-75 px-2 py-2 outline-none ring-transparent cursor-pointer"
+          className="text-gray-500 dark:text-gray-400 bg-white shadow-none p-2 focus:outline-none text-lg rounded-full outline-none ring-transparent cursor-pointer"
         >
-                   <span style={{ color: theme ? "grey" : "grey" }}>
-                    <img src={require('../images/moon.png')} className="w-8"/>
-                   </span>
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+            ></path>
+          </svg>
         </button>
       ) : (
         <button
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="focus:outline-none rounded-full hover:bg-[#e2e8f0] hover:opacity-75 px-2 py-2 shadow-none text-lg  outline-none ring-transparent cursor-pointer"
+          className="text-gray-500 dark:text-gray-400 bg-white focus:outline-none shadow-none p-2 text-lg rounded-full outline-none ring-transparent cursor-pointer"
         >
-           <span style={{ color: theme ? "orange" : "orange" }}>
-            <img src={require('../images/sunlight.png')} className="w-8"/>
-           </span>
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            ></path>
+          </svg>
         </button>
       )}
     </div>

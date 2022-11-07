@@ -76,10 +76,10 @@ function Persona() {
         </div>   
 
         <p className="text-black dark:text-white text-2xl text-center mt-2 italic font-bold p-5">
-          Eric Owen’s Limited HR team are looking to employ young 
+          "Eric Owen’s Limited HR team are looking to employ young 
           and talented individuals to fill various positions that 
           are vacant in the organization. The HR team got many applications, 
-          including applicants vying for various positions.
+          including applicants vying for various positions."
         </p> 
 
          <div className="grid lg:grid-cols-4 gap-3 place-items-center justify-center p-5">

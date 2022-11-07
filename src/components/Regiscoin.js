@@ -12,13 +12,13 @@ function Regiscoin() {
              Regiscoin is a token owned by Regiz LLC.
             </p>
 
-            <p className="font-[poppins] dark:text-white text-black mt-3 leading-8 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[800px] text-center">
+            <p className="font-[poppins] dark:text-white text-black mt-3 leading-8 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
                Regiscoin will be used for payments to access the services on the platform.
                 on the document minting platform or NFT Marketplace. Regiscoin will be our acceptable transcation token. The purpose of the coin is for easy accessibility and usage of the plaform. 
                 it helps remove barries in currency choice, payment and transcation time. It makes the platform accessibile to users globally.
             </p>
 
-            <p className="font-[poppins] dark:text-white text-black mt-3 leading-8 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[800px] text-center">
+            <p className="font-[poppins] dark:text-white text-black mt-3 leading-8 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
              Either on the Documentation Technology platform or Social Marketplace, Regiscoin will be our acceptable transaction currency. The purpose of the coin is for easy accessibility and usage of the platform, It makes the platform accessible to users globally.
                 on the document minting platform or NFT Marketplace. Regiscoin will be our acceptable transcation token. The purpose of the coin is for easy accessibility and usage of the plaform. 
                 it helps remove barries in currency choice, payment and transcation time. It makes the platform accessibile to users globally.
