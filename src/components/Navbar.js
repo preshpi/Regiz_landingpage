@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu  } from "react-icons/ai";
 import { Link, animateScroll as scroll } from 'react-scroll'
-import Toggle from '../darkmode/toggle';
+import Toggle from '../darkmode /toggle';
 function Navbar() {
 
     const [nav, setNav] = useState(false)

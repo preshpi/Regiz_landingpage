@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import 'tw-elements';
-import { ThemeProvider } from './darkmode/themeContext';
+import { ThemeProvider } from './darkmode /themeContext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
