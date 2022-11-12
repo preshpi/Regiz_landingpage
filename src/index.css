@@ -17,7 +17,7 @@ background: linear-gradient(to left, #0f3443, #34e89e); */
 @tailwind utilities;
 
 body{
-    font-family: 'EB Garamond', serif;
+   font-family: 'Lora', serif;
     margin:0;
     padding:0;
     box-sizing: border-box;

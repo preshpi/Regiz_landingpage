@@ -6,7 +6,7 @@ function Regiscoin() {
     <div name='Regiscoin' className="pt-5 dark:bg-[#070909] bg-[#fff]">
     <h1 className="text-5xl text-center dark:text-white text-black font-bold tracking-wide mb-5 p-5">Regiscoin</h1> 
    
-    <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:m-10 m-5 items-center justify-center">
+    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center justify-center">
         <div data-aos="fade-left">
             <p className=" dark:text-white text-black tracking-wide leading-9 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
              Regiscoin is a token owned by Regiz LLC.
@@ -78,32 +78,32 @@ function Regiscoin() {
       <div className="lg:m-20 text-start m-5">
          <p className="dark:text-white text-black text-xl">Presale 12%</p>
          <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg" >
-            <div className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20" data-aos="slide-right"></div>
+            <div className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[12%]" data-aos="slide-right"></div>
          </div>
 
          <p className="dark:text-white text-black text-xl">Liquidity 50%</p>
          <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
-            <div className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36" data-aos="slide-right"></div>
+            <div className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36 lg:w-[50%]" data-aos="slide-right"></div>
          </div>
 
          <p className="dark:text-white text-black text-xl">Team 10%</p>
          <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
-            <div className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14" data-aos="slide-right"></div>
+            <div className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14 lg:w-[10%]" data-aos="slide-right"></div>
          </div>
 
          <p className="dark:text-white text-black text-xl">Airdrops 5%</p>
          <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
-            <div className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-12" data-aos="slide-right"></div>
+            <div className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-12 lg:w-[5%]" data-aos="slide-right"></div>
          </div>
 
          <p className="dark:text-white text-black text-xl">Rewards 18%</p>
          <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
-            <div className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-24" data-aos="slide-right"></div>
+            <div className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-24 lg:w-[18%]" data-aos="slide-right"></div>
          </div>
 
          <p className="dark:text-white text-black text-xl">Locked 5%</p>
          <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
-            <div className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12" data-aos="slide-right"></div>
+            <div className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[5%]" data-aos="slide-right"></div>
          </div>
       </div>
       </div>
