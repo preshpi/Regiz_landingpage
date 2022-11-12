@@ -12,8 +12,8 @@ function Team() {
                   <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667291688/businessman-310819_1280_zdunp4.png" alt="profileimage" className="shadow rounded-full max-w-full h-auto align-middle w-[88px] h-[88px]" id="profile_img"/>
               </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white">Ogunnaike Wahab B	</h1>
-          <p className="text-gray-500 text-sm leading-5">Founder/CEO</p>
+          <h1 className="font-bold text-black dark:text-white">Ogunnaike Wahab B</h1>
+          <p className="text-gray-500 text-sm leading-5">CEO</p>
         </div>
 
         <div className="p-3" data-aos="fade-up">
@@ -23,7 +23,7 @@ function Team() {
                 </div>
             </div>
             <h1 className="font-bold text-black dark:text-white">Akanji Oluwaleke J</h1>
-            <p className="text-gray-500 text-sm leading-5">Co-Founder/CTO	</p>
+            <p className="text-gray-500 text-sm leading-5">CTO	</p>
           
         </div>
 
