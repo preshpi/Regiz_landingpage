@@ -7,7 +7,7 @@ function About() {
       
       <div className="dark:text-gray-300 about-text text-black" data-aos="slide-up">
         
-        <div className="box place-items-center justify-center lg:w-[800px] m-10">
+        <div className="box place-items-center text-center lg:text-start justify-center lg:w-[800px] m-10">
         <input type="checkbox" id="check"/>
 
         <p className="text-xl leading-10 tracking-wider" data-aos="slide-up">
