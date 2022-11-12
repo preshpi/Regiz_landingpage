@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Lora&family=Poppins&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /* font-family: 'EB Garamond', serif;
 font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; */
@@ -20,6 +21,10 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+.about-text{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .line{
@@ -212,6 +217,10 @@ label:hover:before{
   width: 100%;
   height: 100vh;
   background-color: #070909;
-  transition-duration: 200;
+  transition-duration: 0ms;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
   
