@@ -593,17 +593,6 @@ function Navbar() {
             <Toggle/>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute w-full h-full  shadow-full cursor-pointer  shadow '}>
-         <div className='flex flex-col '>
-           <li className="w-full font-normal text-xl leading-6 text-[#434343] red">Home</li>
-           <li className="w-full font-normal text-xl leading-6 text-[#434343] red">Place to stay</li>
-           <li className="w-full font-normal text-xl leading-6 text-[#434343] red">NTF</li>
-           <li className="w-full font-normal text-xl leading-6 text-[#434343] red">community</li>
-           <button className='nav-color rounded-[10px] text-white lg:flex items-center py-3 px-3 md:hidden hidden block'>
-            Connect Wallet
-            </button>        
-         </div>
-       </ul>
     </ul>
       
      </div>
