@@ -4,23 +4,26 @@ function Persona() {
   return (
     <div name='persona' className="">
         <h1 className="text-5xl text-center  dark:text-[#fff] text-black font-bold tracking-wide mb-5 pt-5">Persona</h1>
+        <h1 className="lg:text-5xl font-bold leading-5 text-black dark:text-white p-5">PART A</h1>
         <div className="grid lg:grid-cols-3 gap-3 place-items-center justify-center p-5">
+          
           <div className="m-5 grid place-items-center justify-center" data-aos="fade-up">
             <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979242/girlwithlbooks2_htta1r.png" alt="girlwithbooks" className="w-20"/>
-            <p className="text-black dark:text-white text-xl text-center mt-2">Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool,
-              and a certification from the Association of Chartered Certified Accountants (ACCA).</p>
+            <p className="text-black dark:text-white text-xl text-start mt-2">
+            Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool, 
+            and a certification from the Association of Chartered Certified Accountants (ACCA).</p>
           </div>
 
           <div className="m-5 grid place-items-center justify-center" data-aos="fade-up">
             <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979310/girlunsatisfied_ihixhl.png" alt="girlwithlaptop" className="w-56"/>
-            <p className="text-black dark:text-white text-xl text-center mt-2">Mary is trying to apply for a job At Eric Owen's Limited. An organization abroad, to fill the position of an Accountant.
+            <p className="text-black dark:text-white text-xl text-start mt-2">Mary is trying to apply for a job At Eric Owen's Limited. An Audit Firm abroad, to fill the position of an Accountant.
             </p>
           </div>
 
           <div className="m-5 grid place-items-center justify-center" data-aos="fade-up">
             <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979242/girlthinkingwithabook2_jjsuc2.png" alt="girlthinkingwithaphone" className="w-52"/>
-            <p className="text-black dark:text-white text-xl text-center mt-2">She thought of a way to increase her chances of getting the job, by getting her certificates verified.</p>
-            <p className="text-black dark:text-white text-xl text-center mt-2">For authenticity confirmation purposes, Mary downloads the regiz mobile App from her Device App store, Registered and Created a wallet.</p>
+            <p className="text-black dark:text-white text-xl text-center mt-2">She thought of a way to increase her chances of getting her dream job, by getting her certificates verified, for authenticity confirmation purposes.</p>
+            <p className="text-black dark:text-white text-xl text-center mt-2">Mary downloads the regiz mobile App from her Device App store,and Created a wallet.</p>
           </div>
         </div>
 
@@ -35,14 +38,14 @@ function Persona() {
             <p className="text-black dark:text-white text-xl text-center mt-2">Mary pays a token for Minting using RegisCoin.</p>
             <p className="text-black dark:text-white text-xl text-center mt-2">
               Mary gets a unique Identification Number and also a Grade B Minting stamp 
-              for each document by minting on them I.e., certificate Genuine but unverified.     
+              for each document by minting on them I.e, certificate Genuine but unverified.     
             </p>
           </div>
 
           <div className="m-5 grid place-items-center justify-center" data-aos="fade-up">
             <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979267/girlclicksabutton_qdxixn.png" alt="girlwithlaptop" className="w-56"/>
             <p className="text-black dark:text-white text-xl text-center mt-2">Unsatisfied, Mary went Further to request Verification by her university and (ACCA) respectively.
-            She clicked the Verify and Upgrade to Grade A Button. </p>
+            <br>She clicked the Verify and Upgrade to Grade A Button.</br> </p>
             <p className="text-black dark:text-white text-xl text-center mt-2">
             Mary pays a token for verification using RegisCoin.
             </p>
@@ -74,6 +77,8 @@ function Persona() {
             </p>
           </div>
         </div>   
+
+        <h1 className="lg:text-5xl font-bold leading-5 text-black dark:text-white p-5">PART B</h1>
 
       <div className="justify-center place-items-center grid">
           <p className="text-[#000000] dark:text-white text-2xl text-center mt-2 italic font-bold p-5 lg:w-[50%] items-center grid place-items-center justify-center">
@@ -114,7 +119,14 @@ function Persona() {
             The Third Document they searched popped up with a Notification displaying (Invalid) I.e., not uploaded or ingenuine.
             </p>
           </div>
-        </div>    
+        </div>  
+
+        <div className="mt-3 grid justify-center items-center ">
+          <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668435270/casual-life-3d-girl-with-boxes-1_duhqch.png" alt="job"/>
+          <p className="text-black dark:text-white text-xl text-center mt-2">
+          Eric Owen’s HR Team were able to confirm The authenticity of Mary’s Certificate and Mary got her Dream Job.
+          </p>
+        </div>  
     </div>
   )
 }
