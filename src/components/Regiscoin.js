@@ -6,13 +6,13 @@ function Regiscoin() {
     <div name='Regiscoin' className="pt-5 dark:bg-[#070909] bg-[#fff]">
     <h1 className="text-5xl text-center dark:text-white text-black font-bold tracking-wide mb-5 p-5">Regiscoin</h1> 
    
-    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center justify-center">
+    <div className="grid lg:grid-cols-2 lg:m-10 m-5 ">
         <div data-aos="fade-left">
             <p className=" dark:text-white text-black tracking-wide leading-9 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
              Regiscoin is a token owned by Regiz LLC.
             </p>
 
-            <p className=" dark:text-white text-black mt-3 tracking-wide leading-9 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
+            <p className=" dark:text-white text-black mt-3 tracking-wide leading-9 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[800px] text-center">
              Regiscoin will be used for payments to access services on the platform.
              Either on the Documentation Technology platform or Social Marketplace,
               Regiscoin will be our acceptable transaction currency. The purpose of 

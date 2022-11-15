@@ -13,22 +13,18 @@ import Team from './components/Team';
 import Persona from './components/Persona';
 // import Faq from './components/Faq';
 import AnimatedCursor from "react-animated-cursor"
-import HashLoader from "react-spinners/HashLoader";
+// import HashLoader from "react-spinners/HashLoader";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 function App() {
-  const  [loading, setLoading] = useState(false);
+
 
   useEffect(() => {
     Aos.init({
       duration: 2000,
     });
 
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    },2000)
 }, []);
 
   return (
@@ -55,18 +51,6 @@ function App() {
       ]}
       />
 
-{
-      loading ?
-
-      <div className="loader">
-      <HashLoader
-      color={"#66CC7B"} 
-      loading={loading} 
-      size={100} 
-      />
-     </div>
-
-     :
      
       <>
       <Navbar/>
@@ -82,7 +66,7 @@ function App() {
       <Contact/>
       </>
 
-}
+
 
       
  

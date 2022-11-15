@@ -332,7 +332,7 @@ function Navbar() {
             </div>
 
                                   {/* mobile navbar */}
-            <ul className={!nav ? 'hidden' : 'absolute w-full px-8 shadow-full cursor-pointer bg-[#FFFF] shadow '}>
+            <ul className={!nav ? 'hidden' : 'absolute w-full px-8 shadow-full mt-[419px] cursor-pointer bg-[#FFFF] shadow '}>
               <div className='flex flex-col'>
                     <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer"><a href='/'>Home</a></li>
                   
