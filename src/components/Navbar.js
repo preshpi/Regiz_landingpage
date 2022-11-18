@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className='w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#070909]  text-black dark:text-white'>
-     <div className='px-2 flex justify-between items-center w-full h-full  shadow-lg cursor-pointer'>     
+     <div className=' flex justify-between items-center w-full h-full  shadow-lg cursor-pointer'>     
         
                   {/* logo image */}
          <div className='flex items-center'>
@@ -332,7 +332,7 @@ function Navbar() {
             </div>
 
                                   {/* mobile navbar */}
-            <ul className={!nav ? 'hidden' : 'absolute w-full px-8 shadow-full mt-[419px] cursor-pointer bg-[#FFFF] shadow '}>
+            <ul className={!nav ? 'hidden' : 'absolute w-full  shadow-full mt-[419px] cursor-pointer bg-[#FFFF] shadow '}>
               <div className='flex flex-col'>
                     <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer"><a href='/'>Home</a></li>
                   

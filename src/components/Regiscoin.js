@@ -12,7 +12,7 @@ function Regiscoin() {
              Regiscoin is a token owned by Regiz LLC.
             </p>
 
-            <p className=" dark:text-white text-black mt-3 tracking-wide leading-9 lg:text-start text-x  lg:text-xl w-[330px] md:w-[400px] lg:w-[800px] text-center">
+            <p className=" dark:text-white text-black mt-3 tracking-wide leading-9 lg:text-start text-sm  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px] text-center">
              Regiscoin will be used for payments to access services on the platform.
              Either on the Documentation Technology platform or Social Marketplace,
               Regiscoin will be our acceptable transaction currency. The purpose of 

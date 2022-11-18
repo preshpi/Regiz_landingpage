@@ -2,12 +2,12 @@ import React from 'react'
 
 function About() {
   return (
-    <div name='about' className="pt-5 dark:bg-[#0C1017]">
+    <div name='about' className="pt-5 dark:bg-[#0C1017] bg-gray-50">
       <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide mb-5 pt-5">About Regiz</h1>
       
-      <div className="dark:text-gray-300 about-text text-white" data-aos="slide-up">
+      <div className="dark:text-gray-300 about-text text-black" data-aos="slide-up">
         
-        <div className="box place-items-center text-center lg:text-start justify-center lg:w-[800px] m-10">
+        <div className="box place-items-center lg:text-center text-start justify-center  lg:w-[800px] m-10">
         <input type="checkbox" id="check"/>
 
         <p className="text-xl leading-10 tracking-wider" data-aos="slide-up">

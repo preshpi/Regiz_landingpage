@@ -65,11 +65,6 @@ function App() {
       <Roadmap/>
       <Contact/>
       </>
-
-
-
-      
- 
     </div>
   );
 }
